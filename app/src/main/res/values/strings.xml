@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CalWeek</string>
+    <string name="calendar_week_widget_description">Calendar week number widget</string>
+    <string name="configure">Configure your week counter</string>
+    <string name="update_widget">Update widget</string>
+    <string name="app_widget_description">Week counter widget</string>
+    <string name="sample_number">21</string>
+    <string name="configurable_hint">Week we are on</string>
+</resources>
