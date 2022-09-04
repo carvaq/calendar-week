@@ -1,8 +1,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/Widget.CalendarWeek.AppWidget.Container"
+    style="@style/Widget.Container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:theme="@style/Theme.AppWidgetContainer">
+    android:theme="@style/AppTheme.Widget">
+
     <TextView
         android:id="@+id/calendarWeekNrTv"
         android:layout_width="match_parent"

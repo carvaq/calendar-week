@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.AppWidgetContainerParent" parent="Theme.Material3.DynamicColors.Light">
+    <style name="AppThemeBase.Widget" parent="Theme.Material3.DynamicColors.Light">
         <!-- Radius of the outer bound of widgets to make the rounded corners -->
         <item name="appWidgetRadius">16dp</item>
         <!--
@@ -10,9 +10,9 @@
         <item name="appWidgetInnerRadius">8dp</item>
     </style>
 
-    <style name="Theme.AppWidgetContainer" parent="Theme.AppWidgetContainerParent">
+    <style name="AppTheme.Widget" parent="AppThemeBase.Widget">
         <!-- Apply padding to avoid the content of the widget colliding with the rounded corners -->
         <item name="appWidgetPadding">16dp</item>
-        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textColor">?attr/colorOnSecondaryContainer</item>
     </style>
 </resources>
