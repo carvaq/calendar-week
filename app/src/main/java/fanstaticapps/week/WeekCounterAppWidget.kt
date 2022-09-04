@@ -44,7 +44,7 @@ internal fun updateCounterWidget(
 ) {
     val widgetText = loadCounterPref(context, appWidgetId)
     // Construct the RemoteViews object
-    val views = RemoteViews(context.packageName, R.layout.calendar_week_widget)
+    val views = RemoteViews(context.packageName, R.layout.widget_calendar_week)
     views.setTextViewText(R.id.calendarWeekNrTv, widgetText)
 
     // Instruct the widget manager to update the widget

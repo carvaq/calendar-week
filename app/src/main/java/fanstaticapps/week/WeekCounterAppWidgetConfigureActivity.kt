@@ -6,14 +6,14 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.core.content.edit
-import fanstaticapps.week.databinding.WeekCounterAppWidgetConfigureBinding
+import fanstaticapps.week.databinding.ActivityWeekCounterAppWidgetConfigureBinding
 import java.util.*
 
 /**
  * The configuration screen for the [WeekCounterAppWidget] AppWidget.
  */
 class WeekCounterAppWidgetConfigureActivity : Activity() {
-    private lateinit var binding: WeekCounterAppWidgetConfigureBinding
+    private lateinit var binding: ActivityWeekCounterAppWidgetConfigureBinding
 
     public override fun onCreate(icicle: Bundle?) {
         super.onCreate(icicle)
@@ -22,7 +22,7 @@ class WeekCounterAppWidgetConfigureActivity : Activity() {
         // out of the widget placement if the user presses the back button.
         setResult(RESULT_CANCELED)
 
-        binding = WeekCounterAppWidgetConfigureBinding.inflate(layoutInflater)
+        binding = ActivityWeekCounterAppWidgetConfigureBinding.inflate(layoutInflater)
         setContentView(binding.root)
         // Find the widget id from the intent.
         val appWidgetId = loadWidgetId()
