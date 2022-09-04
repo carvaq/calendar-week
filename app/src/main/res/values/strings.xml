@@ -5,6 +5,6 @@
     <string name="configure">Configure your week counter</string>
     <string name="update_widget">Update widget</string>
     <string name="app_widget_description">Week counter widget</string>
-    <string name="sample_number">19</string>
+    <string name="sample_number">2</string>
     <string name="configurable_hint">Week we are on</string>
 </resources>

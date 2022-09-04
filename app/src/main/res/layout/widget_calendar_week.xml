@@ -1,16 +1,24 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     style="@style/Widget.Container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
     android:theme="@style/AppTheme.Widget">
 
     <TextView
-        android:id="@+id/calendarWeekNrTv"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:gravity="center"
+        android:id="@+id/calendarWeekNr1Tv"
+        style="@style/AppTheme.Widget.Text"
         android:text="@string/sample_number"
-        android:textSize="24sp" />
-</RelativeLayout>
+        android:textColor="?attr/colorSecondary"
+        tools:text="2" />
+
+    <TextView
+        android:id="@+id/calendarWeekNr2Tv"
+        style="@style/AppTheme.Widget.Text"
+        android:textColor="?attr/colorPrimary"
+        android:visibility="gone"
+        tools:text="1"
+        tools:visibility="visible" />
+</LinearLayout>
