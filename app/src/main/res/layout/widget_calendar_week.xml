@@ -11,12 +11,12 @@
         android:id="@+id/calendarWeekNr1Tv"
         style="@style/AppTheme.Widget.Text"
         android:text="@string/sample_number"
-        android:textColor="?attr/colorSecondary"
-        tools:text="2" />
+        android:textColor="?attr/colorSecondary" />
 
     <TextView
         android:id="@+id/calendarWeekNr2Tv"
         style="@style/AppTheme.Widget.Text"
+        android:layout_marginTop="-8dp"
         android:textColor="?attr/colorPrimary"
         android:visibility="gone"
         tools:text="1"
